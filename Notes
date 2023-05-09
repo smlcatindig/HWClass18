@@ -1,0 +1,33 @@
+Inheritance in Java is a mechanism in which one class acquires all the properties and behaviours/ methods of a parent class.
+The idea behind inheritance is that you can create a new classes that are built upon existing classes.
+We reuse the methods and fields of parent class, and we can also add new methods and fields too.
+
+Inheritance represents the IS-A relationship, also known as parent-child relationship.
+
+extends is the keyword we use.
+
+Syntax:
+class Subclass-Name extends Superclass-Name{
+// methods and fields
+}
+
+3 Types of Inheritance:
+Single inheritance
+=> single base class and single derived class (one parent and one child)
+
+Multilevel inheritance
+=> there exists a single base class, single derived class and multiple intermediate base classes
+
+Hierarchical inheritance
+=> when a class has a more than one child classes(sub classes) have the same parent
+
+
+
+Task1:
+create 3 classes Audi, BMW and Tesla create 4 fields and 2 methods in each class.
+
+Task2:
+write a multilevel inheritance where class C inherits from class B and class B inherits from Class A
+
+Task3:
+Write a program to inherit class A that has method printF which is static and call or reuse that method into class B
