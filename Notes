@@ -21,6 +21,13 @@ Multilevel inheritance
 Hierarchical inheritance
 => when a class has a more than one child classes(sub classes) have the same parent
 
+Super keyword:
+By default Java preference for variables:
+1.) local variables
+2.) instance variables of the same class
+3.) instance variables of the parent/super/base class
+
+if we want to modify this default preference. We can use "this" and "super" keyword
 
 
 Task1:
